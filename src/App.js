@@ -1,23 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import MenuKontak from './page/MenuKontak';
+import MenuProduct from './page/MenuProduct';
+import MenuTentangkami from './page/MenuTentangKami';
+import MenuUtama from './page/MenuUtama';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      <h1>Ini Halaman Untuk Header</h1>
+      <MenuUtama />
+      <MenuProduct />
+      <MenuKontak />
+      <MenuTentangkami />
+      <h1>Ini Halaman Untuk Footer</h1>
     </div>
   );
 }
